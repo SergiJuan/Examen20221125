@@ -15,8 +15,6 @@ public class Game {
             cards[i] = new Card(generator);
         }
 
-        play();
-
     }
 
     public void play() {
