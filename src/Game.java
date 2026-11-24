@@ -38,13 +38,10 @@ public class Game {
                 cards[j].markNumber(ball);
 
                 if (cards[j].isLine()) {
-                    System.out.println("LINE COMPLETED by card n. "+j+":");
+                    System.out.println("LINE COMPLETED by card n. "+(j+1)+":");
                     System.out.println(cards[j]);
                     anyLine = true;
-                    break;
                 }
-
-
             }
         }
     }
@@ -60,10 +57,9 @@ public class Game {
                 cards[j].markNumber(ball);
 
                 if (cards[j].isBingo()) {
-                    System.out.println("BINGO by card n. "+j+":");
+                    System.out.println("BINGO by card n. "+(j+1)+":");
                     System.out.println(cards[j]);
                     anyBingo = true;
-                    break;
                 }
 
             }
